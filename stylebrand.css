@@ -1,0 +1,94 @@
+.part1
+{
+    background-image: url(img/wallpaper-original.png);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.part2
+{
+    background-image: url(img/wallpaper-snow.png);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.part3
+{
+    background-image: url(img/wallpaper-sport.png);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.btn 
+{
+    letter-spacing: 1.1rem;
+}
+
+.buy-button
+{
+    display: block; 
+    height: 100%; 
+    color: black; 
+    text-decoration: none; 
+    padding-top: 10%;
+}
+
+.upgrade-button
+{
+    height: 100px; 
+    width: 300px; 
+    font-size: xx-large; 
+    color: black;
+}
+
+.tt1
+{
+    letter-spacing: 1rem;
+}
+
+
+.tt2
+{
+    letter-spacing: 2rem;
+}
+
+
+@media only screen and (max-width: 320px)
+{
+    a.buy-button
+    {
+        font-size: 20px;
+    }
+    button.upgrade-button
+    {
+        width: 185px;
+        height: 75px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px)
+{   
+    .btn
+    {
+        letter-spacing: 0.5rem;
+    }
+
+    .tt1
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px)
+{   
+    .btn
+    {
+        letter-spacing: 0.5rem;
+    }
+
+    .tt2
+    {
+        display: none;
+    }
+}

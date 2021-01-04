@@ -1,0 +1,72 @@
+body
+{
+    background-image: url(img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.products
+{
+    border-radius: 0px;
+}
+
+.poly-prod
+{
+    text-align: center;
+    padding: 5px;
+}
+
+.noidungfooter
+{
+    line-height: 20px;
+    font-size: 10px;
+    color: whitesmoke;
+}
+.noidungfooter a
+{
+    color: whitesmoke;
+}
+
+.noidungcontact
+{
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+.introduce
+{
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+    color: gainsboro;
+}
+
+.price
+{
+    font-size: 30px;
+    text-align: left;
+    color: ghostwhite;
+}
+
+.login
+{
+    font-size: 30px;
+}
+
+.selection
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.signup
+{
+    border-radius: 0px;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 768px)
+{   
+    
+}
